@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-image: url(images/bg-main-mobile.png) ;
+    background-repeat: no-repeat;
+    background-color: #F2F2F2;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 40px 24px 166px 24px;
+}
+
+.headerpatern {
+    display: none;
+}
+
+.headertxt {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.headerimg {
+    width: 147px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    color: #191826;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+
+.blackcont {
+    width: 100%;
+    height: 600px;
+    background: #191826;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.phone {
+    width: 209px;
+    position: relative;
+    margin-top: -96px;
+}
+
+.patern {
+    margin-top: -333px;
+    width: 280px;
+}
+
+.orangecont {
+    position: relative;
+    background: #FA7453;
+    border-radius: 12px;
+    padding: 48px 26px;
+    margin-top: -220px;
+}
+
+.mainorangep {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+}
+
+button {
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: none;
+}
+
+.ios {
+    background: #191826;
+    transition: 0.3s;
+    margin-bottom: 16px;
+}
+
+.ios p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+}
+
+.ios:hover {
+    background: #66E2DC;
+    cursor: pointer;
+}
+
+.android {
+    background: #FCFAF9;
+    transition: 0.3s;
+}
+
+.android p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #191826;
+}
+
+.android:hover {
+    background: #FFB964;
+    cursor: pointer;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+    margin-bottom: 12px;
+}
+
+.usd {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+
+.time {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #FCFAF9;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-top: 36px;
+    margin-bottom: 32px;
+}
+
+footer {
+    padding: 64px 26px 80px 26px;
+
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    margin-top: 32px;
+}
+
+.mail {
+    font-weight: bold;
+    margin-bottom: 64px;
+    margin-top: 0px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.fb:hover, .insta:hover, .twit:hover {
+    cursor: pointer;
+    filter: invert(52%) sepia(80%) saturate(1695%) hue-rotate(329deg) brightness(108%) contrast(96%);
+}
+
+@media (min-width: 760px) {
+
+body {
+    background-image: url(images/bg-main-tablet.png);  
+    background-position-x: -250px;
+    background-position-y: -250px;  
+}
+
+.headerpatern {
+    display: block;
+    width: 266px;
+    position: relative;
+    left: 76%;
+    bottom: 560px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.727273px;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.header {
+    margin: 62px 39px;
+    gap: 0;
+}
+
+.headertxt {
+    gap: 28px;
+    margin-top: 95px;
+}
+
+.orangecont {
+    width: 400px;
+    padding: 48px;
+    left: 36%;
+    bottom: 230px;
+}
+
+.phone {
+    width: 270px;
+    margin-top: -138px;
+    right: 22%;
+}
+
+
+.mainbody {
+    padding: 0 36px;
+    margin-top: -210px;
+}
+
+.patern {
+    margin-top: -450px;
+}
+
+footer {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -150px;
+}
+
+footer p {
+    max-width: 333px;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+body {
+    background-image: url(images/bg-main-desktop.png);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    width: 1015px;
+}
+
+/* p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    width: 825px;
+} */
+
+.header {
+    padding: 62px 165px;
+    margin: 0;
+} 
+
+.headerpatern {
+    width: 312px;
+    left: 88%;
+    bottom: 540px;
+} 
+
+.phone {
+    width: 280px;
+    margin-top: -194px;
+    right: 28%;
+}
+
+.mainbody {
+    padding: 0 165px;
+}
+
+.orangecont {
+    width: 446px;
+    padding: 56px;
+    left: 50%;
+    bottom: 260px;
+
+} 
+
+h2 {
+    font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+    margin-bottom: 22px;
+}
+
+.price {
+    margin-top: 39px;
+    margin-bottom: 46px;
+}
+
+.patern {
+    width: 312px;
+    margin-top: -420px;
+    margin-left: -250px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 240px;
+}
+
+}
